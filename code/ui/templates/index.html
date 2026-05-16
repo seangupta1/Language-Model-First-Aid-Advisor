@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>First Aid Advisor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>First Aid Advisor</h1>
+        <p id="info">This is my semester project for COMP-SCI 5590 Generative AI at the University of Missouri-Kansas
+            City.</p>
+        <p id="warning">This model was created for educational purposes related to large language models only. Do not
+            interpret any
+            information from this model as medical advice. Please consult a medical doctor for medical guidance. If you
+            are experiencing a medical emergency, call 911.</p>
+
+        <div class="chat-container">
+            {% if prompt %}
+            <div class="chat-item-container" id="prompt">
+                <p class="chat">{{ prompt }}</p>
+            </div>
+            <div class="chat-item-container" id="response">
+                <p class="chat">{{ response }}</p>
+            </div>
+            {% endif %}
+
+            <form method="POST" action="/ask">
+                <input type="text" name="prompt" placeholder="Ask a question" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

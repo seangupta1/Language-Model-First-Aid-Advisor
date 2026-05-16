@@ -1,0 +1,20 @@
+name: LLM
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - seaborn
+  - tqdm
+  - pytorch
+  - peft
+  - ipython
+  - tokenizers
+  - numpy
+  - pandas
+  - matplotlib
+  - ipykernel
+  - flask
+  - datasets
+  - conda-forge::trl
+  - tabulate

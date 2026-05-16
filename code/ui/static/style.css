@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: rgb(211, 211, 211);
+}
+
+h1 {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    margin: 20px;
+}
+
+#warning {
+    color: rgb(220, 53, 69);
+    text-align: center;
+    margin: 20px;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-item-container {
+    background-color: rgb(62, 62, 62);
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+.chat {
+    margin: 0;
+    padding: 0;
+}
+
+#prompt {
+    margin-left: auto;
+    margin-right: 10px;
+    text-align: right;
+    max-width: 60%;
+    width: fit-content;
+}
+
+#response {
+    margin-right: auto;
+    margin-left: 10px;
+    text-align: left;
+    max-width: 60%;
+    width: fit-content;
+}
+
+.chat-container form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.chat-container form button {
+    background-color: rgb(62, 62, 62);
+    border-radius: 10px;
+    border: none;
+    color: rgb(211, 211, 211);
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.chat-container form button:hover {
+  background: rgb(51, 51, 51);
+}
+
+.chat-container form input {
+    background-color: rgb(62, 62, 62);
+    background-color: rgb(62, 62, 62);
+    border-radius: 10px;
+    border: none;
+    color: rgb(211, 211, 211);
+    padding: 5px 10px;
+    min-width: 60%;
+}
+.chat-container form input:hover {
+  border: 1px solid rgb(211, 211, 211);
+}
+.chat-container form input:focus {
+  border: 2px solid rgb(211, 211, 211);
+
+  outline: none; 
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
