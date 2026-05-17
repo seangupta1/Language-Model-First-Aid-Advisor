@@ -1,5 +1,4 @@
 # Domain Specific Language Model Pipeline, Training from Wikipedia Category Web Scrape: First Aid Advisor
-This is my semester project for Generative AI class at the University of Missouri-Kansas City.
 
 # Project Overview
 This project developes and evaluates a scalable pipeline for developing a domain specific language model from scratch. The focus is not on achieving state of the art performance, but on demonstrating a scalable, end-to-end workflow for training language models from scratch on domain specific data.
