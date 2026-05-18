@@ -4,7 +4,7 @@
 This project developes and evaluates a scalable pipeline for developing a domain specific language model from scratch. The focus is not on achieving state of the art performance, but on demonstrating a scalable, end-to-end workflow for training language models from scratch on domain specific data.
 
 <div align="center">
-    <p><b>Screenshot of Deployed Model Website</b></p>
+    <p><b>Screenshot of Deployed Model On Flask Website</b></p>
     <img src="images/website_screenshot.png" alt="Model deployed to website" width="600">
 </div>
 
