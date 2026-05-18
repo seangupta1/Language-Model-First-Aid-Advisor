@@ -3,6 +3,12 @@
 # Project Overview
 This project developes and evaluates a scalable pipeline for developing a domain specific language model from scratch. The focus is not on achieving state of the art performance, but on demonstrating a scalable, end-to-end workflow for training language models from scratch on domain specific data.
 
+<div align="center">
+    <p><b>Screenshot of Deployed Model Website</b></p>
+    <img src="images/website_screenshot.png" alt="Model deployed to website" width="600">
+</div>
+
+
 ## Key Contributions
 -	End-to-end pipeline: data → tokenizer → pretraining → LoRA fine-tuning → evaluation → deployment.
 -	Custom tokenizer trained on domain-specific Wikipedia data.
